@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.heroTitle {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 10px 0 5px 0;
+  background-color: red;
+  color: white;
+  border-radius: 7px;
+}
+
+.wrapperHeroes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.heroesImg {
+  height: 200px;
+  margin: 5px;
+  border-radius: 7px;
+}
+
+.hero {
+  height: 210px;
+  border-radius: 7px;
+  background-color: rgba(28, 38, 97, 0.25);
+  margin: 5px 0 5px 0;
+  padding: 8 px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  position: relative;
+  text-align: left
+}
+
+.description {
+  margin-right: 10 px;
+}

@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper{
+  width: 1440px;
+  margin: 0 auto;
+	
+}
+
+.logo{
+  width: 100%;
+  height: 300px;
+
+}
+.wrapperInput{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:  1440px;
+  position: relative;
+  align-items: center;
+}
+.inputSearch{
+  width: 1220px;
+  height: 35px;
+  margin: 5px 0 5px 0px;
+  border-radius: 5px;
+}
+.sortBy{
+  height: 35px;
+}
+.search{
+  height: 35px;
+}
+.wrapperHeroes{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width:  1440px;
+  position: relative;
+}
+.hero{
+  height: 150px;
+  border-radius: 5px;
+  background-color: rgba(28, 38, 97, 0.25);
+  margin: 5px 0 5px 0;
+  padding: 5 px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.name{
+  width: 100px;
+  font-weight: bold;
+  position: absolute;
+  margin: 0 0 0 180px;
+  padding: 0;
+}
+.description{
+  position: absolute;
+  margin: 0 150px 0 300px;
+}
+.selectedPage{
+  font-weight: bold;
+}
+.noHeroImg{
+  width: 1440px;
+}
+.noHero{
+  font-weight: bold;
+  font-size: 24px;
+}
